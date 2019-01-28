@@ -1,0 +1,50 @@
+body {
+  background-image: url('./images/background.png')
+}
+
+.container {
+  height: 500px;
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+
+}
+
+h1#home-h1 {
+  color: black;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 120px;
+  margin-top: 110px;
+  margin-left: 50px;
+}
+
+
+form {
+  height: 250px;
+  position: absolute;
+  left: 60%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+input {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 30px;
+  height: 4rem;
+  width: 20rem;
+  border: 1px solid black;
+  border-radius: 40px;
+  background: lightgrey;
+  padding-left: 15px;
+}
+
+input:focus {
+  outline: none;
+}

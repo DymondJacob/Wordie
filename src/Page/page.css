@@ -1,0 +1,90 @@
+#page-container>button {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  background-color: transparent;
+  font-size: 20px;
+  border: 1px solid lightskyblue;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+#page-container>button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 80px;
+  margin-top: 1rem;
+  margin-left: 400px;
+  position: absolute;
+  color: white;
+}
+
+h2 {
+  color: black;
+  margin-top: -45px;
+}
+
+h3 {
+  color: black;
+}
+
+ol {
+  font-size: 30px;
+  color: black;
+  margin-top: -40px;
+  margin-left: -15px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+
+
+#search-grid {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-column-gap: 500px;
+  grid-row-gap: 40px;
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 150px;
+
+}
+
+#search-grid>div {
+  height: 120px;
+  width: 400px;
+  background-color: white;
+  color: #fff;
+  border-radius: 5px;
+  padding: 50px;
+  font-size: 150%;
+  border: 1px solid black;
+}
+
+
+@media screen and (max-width: 1024px) {
+  #search-grid {
+    left: 30px;
+    grid-column-gap: 400px;
+  }
+
+  #search-grid>div {
+    height: 150px;
+    width: 300px;
+  }
+
+  h1 {
+    margin-left: 350px;
+  }
+
+  ol {
+    font-size: 25px;
+  }
+}
